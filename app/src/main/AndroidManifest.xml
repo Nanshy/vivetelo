@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nanchy.viveteloloapan" >
+
+    <permission
+        android:name="com.example.nanchy.viveteloloapan.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.nanchy.viveteloloapan.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".splashTelo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".inicio"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".menu" >
+        </activity>
+        <activity android:name=".fila_tabla" >
+        </activity>
+        <activity android:name=".listaMonumentos" >
+        </activity>
+        <activity android:name=".lista_restaurantes" >
+        </activity>
+        <activity android:name=".acercade" >
+        </activity>
+        <activity android:name=".lista_alojamiento" >
+        </activity>
+        <activity android:name=".lista_tradiciones" >
+        </activity>
+        <activity android:name=".lista_gastronomia" >
+        </activity>
+        <activity android:name=".lista_agenda" >
+        </activity>
+        <activity android:name=".lista_lugares_cercanos" >
+        </activity>
+        <activity android:name=".ayuda" >
+        </activity>
+        <activity android:name=".descripcionTelo" >
+        </activity>
+        <activity android:name=".ubicacionTelo" >
+        </activity>
+        <activity android:name=".historiaTelo" >
+        </activity>
+        <activity android:name=".tecampana" >
+        </activity>
+        <activity android:name=".museo" >
+        </activity>
+        <activity android:name=".castillo" >
+        </activity>
+        <activity android:name=".abrazo" >
+        </activity>
+        <activity android:name=".santamaria" >
+        </activity>
+        <activity android:name=".iglesiaMexicapan" >
+        </activity>
+        <activity android:name=".hotelAldama" >
+        </activity>
+        <activity android:name=".hotelLasPalmas" >
+        </activity>
+        <activity android:name=".hotelndependencia" >
+        </activity>
+        <activity android:name=".hotelTeloloapan" >
+        </activity>
+        <activity android:name=".hotelSanValentin" >
+        </activity>
+        <activity android:name=".hotelSaAndres" >
+        </activity>
+        <activity android:name=".restaurantAlcatrases" >
+        </activity>
+        <activity android:name=".restauranteMiTierra" >
+        </activity>
+        <activity android:name=".restauranteLasBrisas" >
+        </activity>
+        <activity android:name=".restaurantElcazador" >
+        </activity>
+        <activity android:name=".italianCoffee" >
+        </activity>
+        <activity android:name=".tiempoLifeCoffee" >
+        </activity>
+        <activity android:name=".molerojo" >
+        </activity>
+        <activity android:name=".panconnieve" >
+        </activity>
+        <activity android:name=".cajitas" >
+        </activity>
+        <activity android:name=".royal" >
+        </activity>
+        <activity android:name=".pandecanela" >
+        </activity>
+        <activity android:name=".ojodeaguachapa" >
+        </activity>
+        <activity android:name=".grutasdeatlalac" >
+        </activity>
+        <activity android:name=".tlajocotla" >
+        </activity>
+        <activity android:name=".altmolonga" >
+        </activity>
+        <activity android:name=".diablos" >
+        </activity>
+        <activity android:name=".chat" >
+        </activity>
+        <activity android:name=".contacto" >
+        </activity>
+        <activity android:name=".SesionUsuario" >
+        </activity>
+        <activity android:name=".Comentarios" >
+        </activity>
+        <activity android:name=".RegistrarUsuario" >
+        </activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".mapTelo"
+            android:label="@string/title_activity_map_telo" >
+        </activity>
+        <activity android:name=".enero" >
+        </activity>
+        <activity android:name=".servicios" >
+        </activity>
+        <activity android:name=".ayuda1" >
+        </activity>
+        <activity android:name=".masfotos" >
+        </activity>
+        <activity android:name=".febrero" >
+        </activity>
+        <activity android:name=".marzo" >
+        </activity>
+        <activity android:name=".abril" >
+        </activity>
+        <activity android:name=".mayo" >
+        </activity>
+        <activity android:name=".junio" >
+        </activity>
+        <activity android:name=".julio" >
+        </activity>
+        <activity android:name=".agosto" >
+        </activity>
+        <activity android:name=".septiembre" >
+        </activity>
+        <activity android:name=".octubre" >
+        </activity>
+        <activity android:name=".noviembre" >
+        </activity>
+        <activity android:name=".diciembre" >
+        </activity>
+        <activity android:name=".ayuda2" >
+        </activity>
+        <activity android:name=".ayuda3" >
+        </activity>
+        <activity android:name=".ayuda4" >
+        </activity>
+        <activity android:name=".ayuda5" >
+        </activity>
+        <activity
+            android:name=".Probando"
+            android:label="@string/title_activity_probando" >
+        </activity>
+    </application>
+
+</manifest>

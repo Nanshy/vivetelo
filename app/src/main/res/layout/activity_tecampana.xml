@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.nanchy.viveteloloapan.tecampana"
+    android:background="@drawable/telobrillaa">
+
+
+   <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imagensonido"
+        android:src="@drawable/tt"
+        android:onClick="reproducir"
+        android:layout_below="@+id/txtMonumentos"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:background="#00ede4e4" />
+
+   <!-- <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:verticalScrollbarPosition="left"
+            android:layout_marginTop="100dp">
+
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/imagensonido"
+                android:src="@drawable/tt"
+                android:onClick="reproducir"
+                android:layout_below="@+id/txtMonumentos"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="44dp"
+                android:background="#00ede4e4" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/imagensonido1"
+                android:src="@drawable/ral1"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/imageView1"
+                android:src="@drawable/rc2"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/rc3"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/imageView4"
+                android:src="@drawable/rc4"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="TECAMPANA"
+        android:id="@+id/txtMonumentos"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fffefe"
+        android:textSize="42dp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="10dp"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView2"
+        android:layout_marginTop="300dp">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1500dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="El máximo atractivo turístico natural de la ciudad, le da nombre a los teloloapenses, conocidos como tecampaneros, se ubica al norte de la ciudad, entre las col. Mexicapán y Rubén Figueroa.
+En 1579 llamó la atención de los españoles encargados de llenar el cuestionario o Las Relaciones Geográficas, donde se compilaban datos relacionados con las comunidades indígenas de la Nueva España, que incluía noticias curiosas o desconocidas y que al referirse a Teloloapan escribieron:
+Está en este pueblo de Teloloapan, junto al pueblo, en un pedregal grande, una piedra más alta que otras, qs cosa de ver el misterio q tiene, porqn tocandola con otra piedra y dándole, suena como campana, tan claro y tan buen sonido como si lo fuera de buen metal, y, conforme en la parte q le dan, asi hace el sonido, si quieren, como campana grande o como pequeña, diferenciando el sonido: óyese en gran trecho, y muy claro.
+De ahí su nombre hibrido náhuatl-español Te-campana, por el prefijo Tetl que significa piedra. es decir, campana de piedra. Una piedra caliza del jurásico, dirían los geólogos.
+La Tecampana se localiza en los 18º 22' 22.0'' latitud Norte y 99º 52' 19.5'' longitud Oeste a una altura sobre el nivel del mar de 1695 m, (2), antaño totalmente rodeada de pedregales, pero que ahora está amenazada por ya estar cercada por la urbanización.
+"
+            android:id="@+id/txthistoriacompleta"
+            android:textStyle="normal"
+            android:textColor="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/button"
+            android:onClick="ubicacion"
+            android:background="@drawable/mapp"
+            android:textAlignment="center"
+            android:layout_marginTop="520dp" />
+
+    </RelativeLayout>
+</ScrollView>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/button2"
+        android:background="@drawable/moree"
+        android:onClick="mas"
+        android:layout_below="@+id/txtMonumentos"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

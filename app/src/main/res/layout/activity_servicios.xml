@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.nanchy.viveteloloapan.servicios"
+    android:background="@drawable/f1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="SERVICIOS"
+        android:id="@+id/txtAyuda"
+        android:textColor="#063367"
+        android:textSize="50dp"
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Para comunicarte directamente con el administrador o director de cultura y turismo entra a buzon"
+        android:id="@+id/ttayuda1"
+        android:textSize="20dp"
+        android:textColor="#063367"
+        android:textStyle="bold"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="BUZON"
+        android:id="@+id/button3"
+        android:onClick="clicComentarios"
+        android:textSize="25dp"
+        android:background="#b4f91313"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="chatear"
+        android:id="@+id/button4"
+        android:onClick="clicChat"
+        android:textSize="25dp"
+        android:background="#b4f91313"
+        android:layout_below="@+id/textView16"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Para interactuar con todos los usuarios entra a Chat"
+        android:id="@+id/textView16"
+        android:textSize="20dp"
+        android:textColor="#063367"
+        android:textStyle="bold"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

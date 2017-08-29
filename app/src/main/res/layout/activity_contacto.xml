@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.nanchy.viveteloloapan.contacto"
+    android:background="@drawable/f2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacto"
+        android:id="@+id/textView9"
+        android:textSize="50dp"
+        android:textColor="#063367"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/contact"
+        android:layout_marginTop="80dp"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView2"
+        android:layout_marginTop="235dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="470dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Para mas información comuniquese con el director de cultura, llamando por telefono o desde el modulo servicios"
+                android:id="@+id/textView81"
+                android:textSize="20dp"
+                android:textColor="#063367"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Josè Nahym Salgado Patiño"
+        android:id="@+id/textVie"
+        android:textSize="25dp"
+        android:textColor="#063367"
+        android:textStyle="bold"
+        android:layout_marginTop="170dp"
+        android:layout_centerHorizontal="true" />
+
+            <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Director de cultura"
+        android:id="@+id/textView8"
+        android:textSize="30dp"
+        android:textColor="#063367"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView81"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7361092832"
+        android:id="@+id/textView10"
+        android:textSize="25dp"
+        android:textColor="#063367"
+        android:textStyle="bold"
+        android:layout_below="@+id/textVie"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llamar"
+        android:layout_below="@+id/textView10"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10"
+        android:onClick="clicLlamar"
+        android:background="@drawable/call" />
+            </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

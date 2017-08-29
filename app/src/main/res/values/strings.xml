@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ViveTeloloapan</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_listpagerview">listpagerview</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_splash_telo">splashTelo</string>
+    <string name="title_activity_menu_e">menuE</string>
+    <string name="title_activity_map_telo">Map</string>
+    <string name="title_activity_probando">Map</string>
+</resources>

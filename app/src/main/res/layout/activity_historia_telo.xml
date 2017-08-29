@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.nanchy.viveteloloapan.historiaTelo"
+    android:background="@drawable/telobrillaa">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView2"
+        android:layout_marginTop="300dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="800dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+               android:text="La tradición oral relata que los primeros pobladores de Teloloapan fueron los Cohuixcas, quienes tuvieron que luchar contra los Chontales, los que no permitían su establecimiento definitivo en estas tierras. Los Cohuixcas poseían las siguientes características: altos,morenos, usaban trenzas, eran huraños, implacables y agresivos.Los tres grandes grupos que llegaron en diferentes épocas a la región norte de nuestro Estado, fueron los Chontales, los Nahuas y los Izucas y los Mexicas. Los Cohuixcas se dedicaron a la agricultura. Sus principales sembradíos eran el maíz, la calabaza, el cacao, entre otros. Sus dominios se extendian hasta lo que hoy se conoce con el nombre de Chapa, pequeña comunidad poseedora de un manantial de agua que surte a la Cabecera Municipal del preciado líquido.Se afirma que cuando el reino de Mexicapan estaba en pleno apogeo, llegaron los Tenochcas quienes arrazaron materialmente a esta población, llevandose muchos prisioneros a la Capital Azteca, dejando el libertad únicamente a los ancianos, mujeres y niños. Probablemente a raíz de la conquista realizada por los Mexicas, los Cohuixcas cambiaron sus habitaciónes un poco hacia el sur, para dar orígen a la Ciudad de las Tecampanas, de maravillosos paisajes y agradabilísimo clima.Se tiene indicios de que las primeras construcciónes de nuestro Teloloapan, se realizaron en el año 700 d.C. por las tribus indígenas. Fué hasta el 23 de junio de 1871, cuando fué eregida Ciudad, por el entonces Gobernador del Estado, el Gral. Francisco O. Arce. Teloloapan es Cabecera Municipal y del Distrito Judicial de Aldama. Años más tarde, el 1° de mayo, cedió parte de su territorio para formar el Mpio. de Cuetzal a. Después, el 23 de diciembre de 1953, donó otra parte para constituir el Mpio. de Canuto A. Neri."
+                android:id="@+id/txthistoriacompleta"
+                android:textStyle="normal"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#ffffff" />
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="HISTORIA"
+        android:id="@+id/txthistoria"
+        android:layout_alignTop="@+id/imagensonido"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="46dp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="40dp"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_marginTop="135dp"
+        android:src="@drawable/hi"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

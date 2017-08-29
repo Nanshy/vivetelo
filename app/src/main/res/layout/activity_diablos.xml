@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.nanchy.viveteloloapan.diablos"
+    android:background="@drawable/telobrillaa">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:verticalScrollbarPosition="left"
+            android:layout_marginTop="100dp">
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:id="@+id/imagensonido"
+                android:src="@drawable/d1"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:id="@+id/imageView1"
+                android:src="@drawable/d2"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/d2"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:id="@+id/imageView4"
+                android:src="@drawable/d4"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="DIABLOS"
+        android:id="@+id/txtMonumentos"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="26dp"
+        android:textStyle="bold|italic"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView2"
+        android:layout_marginTop="360dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Los tronidos de sus chicotes se escuchan por las calles y los niños huyen al paso de las criaturas forradas de cuero y con cabezas llenas de otras cabezas animales, de cuernos encimados, de greñudas crines y agudos colmillos... cabezas llenas de la fantasía colorida de este desconcertante México.Entre bramidos y bufidos corre por las calles la manada de diablos aterrorizando con sus descomunales máscaras. Los tronidos de sus chicotes se escuchan por las calles y los niños huyen al paso de las criaturas forradas de cuero y con cabezas llenas de otras cabezas animales, de cuernos encimados, de greñudas crines y agudos colmillos... cabezas llenas de la fantasía colorida de este desconcertante México."
+        android:id="@+id/descripcionTelo"
+        android:textStyle="normal"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"/>
+            </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

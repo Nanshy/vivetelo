@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0sp"
+    android:paddingBottom="0dp"
+    tools:context="com.example.nanchitan_n.viveteloloapan.menu"
+    android:background="@drawable/telobrillaa"
+    android:id="@+id/j">
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:verticalScrollbarPosition="left">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:onClick="clicHome"
+                android:background="@drawable/casita"
+                android:id="@+id/clicHome"
+                android:textSize="12dp" />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Idioma"
+                android:onClick="clicIdioma"
+                android:background="#c8403a3a"
+                android:id="@+id/clicIdioma"
+                android:textSize="12dp"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Agenda"
+                android:onClick="clicAgenda"
+                android:background="#c8403a3a"
+                android:id="@+id/clicAgenda"
+                android:textSize="12dp"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="Lugares cercanos"
+                android:nestedScrollingEnabled="false"
+                android:onClick="clicLugaresCercanos"
+                android:background="#c8403a3a"
+                android:id="@+id/clicLugaresC"
+                android:textSize="12dp"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Contacto"
+                android:onClick="clicContacto"
+                android:background="#c8403a3a"
+                android:id="@+id/clicContacto"
+                android:textSize="12dp"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Servicios"
+                android:onClick="servicios"
+                android:background="#c8403a3a"
+                android:id="@+id/btnServicios"
+                android:textSize="12dp"/>
+
+            <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Ayuda"
+            android:onClick="clicAyuda"
+            android:background="#c8403a3a"
+            android:id="@+id/clicAyuda"
+            android:textSize="12dp"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Monumentos"
+        android:id="@+id/clicMonumentos"
+        android:onClick="clicmonumentos"
+        android:background="#c8403a3a"
+        android:textColor="#fefefe"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="48dp"
+        android:layout_marginEnd="48dp"
+        android:textSize="12dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Acerca de"
+        android:id="@+id/acercade"
+        android:onClick="clicAcercade"
+        android:background="#c8403a3a"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        android:layout_alignTop="@+id/clicMonumentos"
+        android:layout_toRightOf="@+id/imageView7"
+        android:layout_toEndOf="@+id/imageView7" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Restaurantes"
+        android:id="@+id/clicResta"
+        android:onClick="clicRest"
+        android:background="#c8403a3a"
+        android:textColor="#fefefe"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/acercade"
+        android:layout_alignLeft="@+id/acercade"
+        android:layout_alignStart="@+id/acercade"
+        android:textSize="12dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Alojamiento"
+        android:id="@+id/clicalojamiento"
+        android:onClick="clicAlojamiento"
+        android:background="#c8403a3a"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/clicResta"
+        android:layout_alignLeft="@+id/clicMonumentos"
+        android:layout_alignStart="@+id/clicMonumentos"
+        android:textSize="12dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Artesanias"
+        android:id="@+id/clicArtesania"
+        android:onClick="clicTradiciones"
+        android:background="#c8403a3a"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/clicGastro"
+        android:layout_alignLeft="@+id/clicResta"
+        android:layout_alignStart="@+id/clicResta"
+        android:textSize="12dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Gastronomìa"
+        android:id="@+id/clicGastro"
+        android:onClick="clicGastronomia"
+        android:background="#c8403a3a"
+        android:textColor="#ffffff"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/clicalojamiento"
+        android:layout_alignLeft="@+id/clicalojamiento"
+        android:layout_alignStart="@+id/clicalojamiento"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView12"
+        android:src="@drawable/viveteloimg"
+        android:layout_above="@+id/clicMonumentos"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView6"
+        android:src="@drawable/acerr"
+        android:layout_above="@+id/clicResta"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#c8403a3a" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView7"
+        android:src="@drawable/resttt"
+        android:background="#c8403a3a"
+        android:layout_alignTop="@+id/clicResta"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView8"
+        android:src="@drawable/pngacerca"
+        android:background="#c8403a3a"
+        android:layout_alignTop="@+id/clicMonumentos"
+        android:layout_toRightOf="@+id/clicalojamiento"
+        android:layout_toEndOf="@+id/clicalojamiento" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView9"
+        android:src="@drawable/hotelss"
+        android:background="#c8403a3a"
+        android:layout_alignTop="@+id/clicalojamiento"
+        android:layout_toRightOf="@+id/clicalojamiento"
+        android:layout_toEndOf="@+id/clicalojamiento" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView10"
+        android:src="@drawable/arte"
+        android:background="#c8403a3a"
+        android:layout_alignTop="@+id/clicArtesania"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView11"
+        android:src="@drawable/food"
+        android:background="#c8403a3a"
+        android:layout_alignTop="@+id/clicGastro"
+        android:layout_toRightOf="@+id/clicGastro"
+        android:layout_toEndOf="@+id/clicGastro" />
+
+</RelativeLayout>
